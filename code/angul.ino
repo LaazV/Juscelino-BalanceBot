@@ -1,3 +1,4 @@
+// Updates should (hopefully) always be available at https://github.com/jrowberg/i2cdevlib
 #include "I2Cdev.h"
 #include "MPU6050_6Axis_MotionApps20.h"
 #include <Wire.h>
