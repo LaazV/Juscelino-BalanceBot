@@ -12,6 +12,7 @@ void PID_setup()
   myPID.SetOutputLimits(120, 255);
   myPID.SetMode(AUTOMATIC);
   Serial.println("PID Iniciado\n");
+  
 }
 
 int PID_loop(float angulo) {
@@ -24,8 +25,6 @@ int PID_loop(float angulo) {
 
   Input > Setpoint ? Input = Input - (2*(Input-Setpoint)): Input = Input;
     
-  //Serial.print("\tInput: ");
-  //Serial.print(Input);
   myPID.Compute();
   Serial.print("\nPID: ");
   Serial.print(Output);
