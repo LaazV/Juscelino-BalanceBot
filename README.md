@@ -12,8 +12,7 @@ With time I'll make a step-by-step guide with all the information needed (or at 
 
 ## List of Materials
 
->
+
 >1. Arduino UNO R3 or compatible board
 >2. MPU-6050  -> 6 DOF Accelerometer/Giroscope
 >3. L298N    -> H-bridge driver
->
